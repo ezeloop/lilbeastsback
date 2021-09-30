@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/animal-types",
+      "handler": "animal-type.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/animal-types/count",
+      "handler": "animal-type.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/animal-types/:id",
+      "handler": "animal-type.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/animal-types",
+      "handler": "animal-type.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/animal-types/:id",
+      "handler": "animal-type.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/animal-types/:id",
+      "handler": "animal-type.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Veterinaries",
+  "info": {
+    "name": "Veterinary"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "tel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sexs",
+  "info": {
+    "name": "sex"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}
